@@ -2,9 +2,8 @@ import { ActionReducerMap } from '@ngrx/store';
 import * as bananaStore from './banana/state';
 
 export interface AppState {
-  banana: bananaStore.BananaState
+  banana: bananaStore.State
 }
-
 export const initialState: AppState = {
   banana: bananaStore.initialState
 }

@@ -1,7 +1,7 @@
-export interface BananaState {
+export interface State {
   isPeeled: boolean;
   bitesRemaining: number;
   color: string;
 }
 
-export const initialState: BananaState = {} as BananaState;
+export const initialState: State = {} as State;
